@@ -13,33 +13,40 @@ public static void main(String[] args) {
 	
 	}
 	 
+	
+	 
 	 if(testscore<=80&&testscore>50) {
 		 
 	JOptionPane.showMessageDialog(null," Try harder next time!"); 
 		
 	 }
 	 
-	 if(testscore<=99&&testscore>80) {
+	 
+	 
+	 
+	 
+	 
+	 if(testscore==99) {
 		
 		 JOptionPane.showMessageDialog(null," Good Almost to 100!"); 
 		 
 	 }
 		 
-	 if(testscore<=100) {
+	 if(testscore>=100&&testscore>=90) {
 			
 		 JOptionPane.showMessageDialog(null,"Well done! you did an AWESOME JOB! :) "); 
+	
 		 
+		
 	 }
 		 
-		 
-		 JOptionPane.showMessageDialog(null," Try harder next time!"); 
-				
-			 }
-	 
-	 
+}
 }
 	 
 	 
 
-}
-}
+	 
+	 
+
+
+
