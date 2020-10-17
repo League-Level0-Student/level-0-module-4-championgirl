@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	 
 	 if(testscore<=50) {
 		 
-		JOptionPane.showMessageDialog(null," You can do better!"); 
+		JOptionPane.showMessageDialog(null," You can do better, but I doubt it! HAHAHAHAHA!"); 
 	
 	}
 	 
