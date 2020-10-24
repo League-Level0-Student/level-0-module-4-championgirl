@@ -16,32 +16,18 @@ public class PiAloud {
 public static void main(String[] args) {
 	
 	// 2. Make a String variable to hold 20 digits of Pi. You could use http://www.piday.org/million/ to get this.
-String pi="3."
-		+ "1"
-		"4
-		"1"
-		"5"
-		"9"
-		"2"
-		"6"
-		"5"
-		"3"
-		"5"
-		"8"
-		"9"
-		"7"
-		"9"
-		"3"
-		"2"
-		"3"
-		"8"
-		"4"
-		"6";	// 3. Print out 3 digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
+String pi="3.1415926535897932384";
+			// 3. Print out 3 digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
+
+System.out.println(pi.charAt(0) + " " + pi.charAt(1) + " " + pi.charAt(2));
 	// Check the console shows 3.1
-System.out.println(pi);
+
 	// 4. Print ALL the digits of the Pi String, putting each digit on a new line  (hint: use a loop)
-//for() {
-//}
+for(int digits = 0; digits < pi.length(); digits++) {
+	
+	System.out.println(  pi.charAt(digits));
+	
+}
 	// 5. Skip this step if your computer cannot play sounds. 
 	//		if (canPlaySounds) {
 	//				 Use the speak() method to speak each digit of Pi.   
